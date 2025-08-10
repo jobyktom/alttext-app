@@ -242,7 +242,7 @@ export default function AltTextApp() {
           </div>
         </div>
 
-        {errors.length > 0 and (
+        {errors.length > 0 && (
           <div className="mt-4 rounded-xl bg-red-50 border border-red-200 p-4">
             <div className="flex items-start gap-3">
               <div className="font-semibold text-red-800">Errors</div>
