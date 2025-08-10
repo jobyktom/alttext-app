@@ -6,7 +6,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "npm --prefix client ci && npm --prefix client run build",
+    "build": "npm --prefix client install && npm --prefix client run build",
     "postinstall": "npm run build",
     "start": "node server.js"
   },
